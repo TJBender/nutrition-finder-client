@@ -1,26 +1,66 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+import Welcome from './containers/Welcome';
+import Home from './containers/Home';
+import LoginForm from './components/LoginForm'
+import SignupForm from './components/SignupForm'
+import Navbar from './containers/Navbar'
+import FavRecipesContainer from './containers/FavRecipesContainer'
+import { Switch, Route, Link } from 'react-router-dom'
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+
+class App extends React.Component {
+
+  state = {
+    loggedIn: false
+  }
+
+  renderHomePage = (routerProps) => {
+    return <Navbar 
+      {...routerProps}
+    />
+  }
+
+  renderSignupForm = (routerProps) => {
+    return <SignupForm
+      loggedIn={this.state.loggedIn}
+      {...routerProps}
+    />
+  }
+
+  renderLoginForm = (routerProps) => {
+    return <LoginForm
+      loggedIn={this.state.loggedIn}
+      {...routerProps}
+    />
+  }
+
+  renderWelcomePage = (routerProps) => {
+    return <Welcome
+      loggedIn={this.state.loggedIn}
+      {...routerProps}
+    />
+  }
+
+
+  render() {
+    // console.log(this.state.recipes)
+    return (
+      <div className="App">
+        {/* conditional rendering for home or welcome */}
+        {/* if logged in (state) show HOME else not logged in (state) show WELCOME */}
+            <Route path="" render={this.renderHomePage}/>
+            <Switch>
+              <Route path="/login" render={this.renderLoginForm} />
+              <Route path="/signup" render={this.renderSignupForm} />
+              <Route exact path="/" render={this.renderWelcomePage} /> 
+              <Route path="/home" render={()=> <Home />}/>
+            </Switch>
+      </div>
+
+    );
+  }
+
 }
 
 export default App;
