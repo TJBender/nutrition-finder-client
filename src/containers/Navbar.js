@@ -1,4 +1,5 @@
 import React from 'react'
+import '../App.css';
 
 class Navbar extends React.Component { 
     // some conditional rendering for what to show here on home or welcome page?
@@ -20,6 +21,9 @@ class Navbar extends React.Component {
                 <div>
                     <button className="button">👤</button>
                 </div>
+                <div className="TwirlyApple">
+                    <img id="apple" src={'https://saurabh-sharma.com/images/apple-cliparts-cartoon-11.png'} className="App-logo" alt="apple" />
+                </div>
                 <h1>Food Finder</h1>
                 <div>
                     <button onClick={this.clickLogout} className="button">logout</button>
@@ -34,7 +38,7 @@ class Navbar extends React.Component {
                    </div>
                    <h1>Nutrition Finder</h1>
                    <div>
-                       <button className="button">Welcome</button>
+                       <button className="button">Login</button>
                    </div>
                </div>
            }
