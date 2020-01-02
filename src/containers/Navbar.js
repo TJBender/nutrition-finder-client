@@ -6,18 +6,24 @@ class Navbar extends React.Component {
         this.props.history.push("/")
     }
 
+    clickNewFood = () => {
+        this.props.history.push("/newfoodform")
+    }
+
     render() {
         // console.log(this.props.loggedIn)
         const loggedIn = this.props.loggedIn
         
            if (!loggedIn) {
             return<div className="nav-bar"> 
+                <link href="https://fonts.googleapis.com/css?family=Luckiest+Guy&display=swap" rel="stylesheet"></link>
                 <div>
                     <button className="button">👤</button>
                 </div>
                 <h1>Food Finder</h1>
                 <div>
-                    <button onClick={this.clickLogout}className="button">logout</button>
+                    <button onClick={this.clickLogout} className="button">logout</button>
+                    <button onClick={this.clickNewFood} className="button">new food</button>
                 </div>
             </div>
            } 

@@ -1,74 +1,105 @@
 {
-    "recipes": [
-        {
-            "id": 1,
-            "name": "Ribeye",
-            "type": "Beef",
-            "price": 84.10,
-            "img": "https://applestonemeat.com/wp-content/uploads/2017/02/Beef-Ribeye-Bone-In-6463-600x600.jpg"
-        },
-        {
-            "id": 2,
-            "name": "Sushi",
-            "type": "Entré",
-            "price": 68.85,
-            "img": "https://clipart4biz.com/images/sushi-drawing-cartoon-3.jpg"
-        },
-        {
-            "id": 3,
-            "name": "Reeses Cups",
-            "type": "Candy",
-            "price": 3.41,
-            "img": "https://www.hersheys.com/is/image/content/dam/reeses/en_us/images/home/Reeses_PBcups_familyshot_product_570x320.jpg?hei=320&wid=570&fmt=jpg"
-        },
-        {
-            "id": 4,
-            "name": "Pasta",
-            "type": "Entré",
-            "price": 24.04,
-            "img": "https://www.thechunkychef.com/wp-content/uploads/2017/08/One-Pot-Chicken-Parmesan-Pasta-feat.jpg"
-        },
-        {
-            "id": 5,
-            "name": "Banana Split",
-            "type": "Dessert",
-            "price": 15.05,
-            "img": "https://cdn.kiwilimon.com/recetaimagen/26478/26077.jpg"
-        },
-        {
-            "id": 6,
-            "name": "New York Strip",
-            "type": "Beef",
-            "price": 29.95,
-            "img": "https://cdn3.volusion.com/hfnhm.snnab/v/vspfiles/photos/600122001017-2.jpg?v-cache=1423577176"
-        },
-        {
-            "id": 7,
-            "name": "Bottle Caps",
-            "type": "Candy",
-            "price": 1.45,
-            "img": "https://cdn.candynation.com/media/catalog/product/cache/cc72865156500766af3a4ff9131f02d7/b/o/bottle_caps_bulk.jpg"
-        },
-        {
-            "id": 8,
-            "name": "Chocolate Cake",
-            "type": "Dessert",
-            "price": 7.94,
-            "img": "https://tastesbetterfromscratch.com/wp-content/uploads/2010/06/Hersheys-Perfectly-Chocolate-Chocolate-Cake-13.jpg"
-        },
-        {
-            "id": 9,
-            "name": "Apple Pie",
-            "type": "Dessert",
-            "price": 8.56,
-            "img": "https://preppykitchen.com/wp-content/uploads/2015/12/Apple-Pie-Recipe-500x375.jpg"
-        },
-        {
-            "id": 10,
-            "name": "Rice and Beans",
-            "type": "Entré",
-            "price": 6.07,
-            "img": "https://www.myforkinglife.com/wp-content/uploads/2019/02/Jamaican-Instant-Pot-Rice-and-Beans-4.jpg"
-        }
-    ]
+  "recipes": [
+    {
+      "id": 1,
+      "name": "Ribeye",
+      "type": "BEEF",
+      "price": 84.1,
+      "img": "https://girlscangrill.com/wp-content/uploads/2015/09/big-green-egg-ribeye.jpg"
+    },
+    {
+      "id": 2,
+      "name": "Sushi",
+      "type": "Entré",
+      "price": 68.85,
+      "img": "https://clipart4biz.com/images/sushi-drawing-cartoon-3.jpg"
+    },
+    {
+      "id": 3,
+      "name": "Reeses Cups",
+      "type": "Candy",
+      "price": 3.41,
+      "img": "https://www.hersheys.com/is/image/content/dam/reeses/en_us/images/home/Reeses_PBcups_familyshot_product_570x320.jpg?hei=320&wid=570&fmt=jpg"
+    },
+    {
+      "id": 4,
+      "name": "Pasta",
+      "type": "Entré",
+      "price": 24.04,
+      "img": "https://www.thechunkychef.com/wp-content/uploads/2017/08/One-Pot-Chicken-Parmesan-Pasta-feat.jpg"
+    },
+    {
+      "id": 5,
+      "name": "Banana Split",
+      "type": "Dessert",
+      "price": 15.05,
+      "img": "https://cdn.kiwilimon.com/recetaimagen/26478/26077.jpg"
+    },
+    {
+      "id": 6,
+      "name": "New York Strip",
+      "type": "BEEF",
+      "price": 29.95,
+      "img": "https://cdn3.volusion.com/hfnhm.snnab/v/vspfiles/photos/600122001017-2.jpg?v-cache=1423577176"
+    },
+    {
+      "id": 7,
+      "name": "Bottle Caps",
+      "type": "Candy",
+      "price": 1.45,
+      "img": "https://cdn.candynation.com/media/catalog/product/cache/cc72865156500766af3a4ff9131f02d7/b/o/bottle_caps_bulk.jpg"
+    },
+    {
+      "id": 8,
+      "name": "Chocolate Cake",
+      "type": "Dessert",
+      "price": 7.94,
+      "img": "https://tastesbetterfromscratch.com/wp-content/uploads/2010/06/Hersheys-Perfectly-Chocolate-Chocolate-Cake-13.jpg"
+    },
+    {
+      "id": 9,
+      "name": "Apple Pie",
+      "type": "Dessert",
+      "price": 8.56,
+      "img": "https://preppykitchen.com/wp-content/uploads/2015/12/Apple-Pie-Recipe-500x375.jpg"
+    },
+    {
+      "id": 10,
+      "name": "Rice and Beans",
+      "type": "Entré",
+      "price": 6.07,
+      "img": "https://www.myforkinglife.com/wp-content/uploads/2019/02/Jamaican-Instant-Pot-Rice-and-Beans-4.jpg"
+    },
+    {
+      "name": "english bfast",
+      "price": "87",
+      "img": "https://iamafoodblog.com/wp-content/uploads/2019/02/full-english-7355w.jpg",
+      "type": "BEEF",
+      "id": 13
+    },
+    {
+      "name": "cheeto pressi",
+      "price": "1",
+      "img": "https://www.dailydot.com/wp-content/uploads/a61/67/3e3c798a53b6e734c03481b010259208.jpg",
+      "type": "BEEF",
+      "id": 14
+    },
+    {
+      "type": "BEEF",
+      "name": "Steven's Steak",
+      "price": "192222",
+      "img": "http://www.kansascitysteaks.com/dyn-images/pdp_hero/Ribeye_-_grilled_-_S-9ddcfb50325e18042116237659fdbf78.jpg",
+      "id": 15
+    },
+    {
+      "name": "meatball doll",
+      "price": ".017",
+      "img": "https://www.awesomeinventions.com/wp-content/uploads/2018/04/meat-baby-crazy-food-ideas.jpg",
+      "type": "Dessert",
+      "id": 16
+    },
+    {
+      "id": 17
+    }
+  ]
 }
