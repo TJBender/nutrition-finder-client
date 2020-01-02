@@ -28,7 +28,6 @@ class NewFoodForm extends React.Component {
                 } else {
                     this.setState({ })
                     this.props.history.push("/home")
-                    // we could have this pessimistically add the review to the parent component but... I'm lazy
                 }
             })
     }
