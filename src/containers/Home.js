@@ -1,5 +1,5 @@
 import React from 'react'
-import RecipeCard from '../components/RecipeCard'
+// import RecipeCard from '../components/RecipeCard'
 import FavRecipesContainer from './FavRecipesContainer' // then these guys get recipe card
 import RecipesContainer from './RecipesContainer' // then these guys get recipe card
 
@@ -21,22 +21,19 @@ class Home extends React.Component {
     addRecipe = (id) => {
         let newRecipes = this.state.recipes.map((recipe) => {
             if (recipe.id === id) {
-                // if the bot id matches the id of the card you clicked on...
-                // add a new key (inMyArmy)
                 return { ...recipe, inMyRecipes: true }
             } else {
-                // otherwise return the bot obj without any key
+                // otherwise return the obj without any key
                 return recipe
             }
         })
-        // reset state to hold the new bots 
         this.setState({ recipes: newRecipes })
     }
 
     removeRecipe = (id) => {
         let removedRecipes = this.state.recipes.map((recipe) => {
             if (recipe.id === id) {
-                return { ...recipe, inMyRecipes: false }
+                return {...recipe, inMyRecipes: false }
             } else {
                 return recipe
             }

@@ -5,9 +5,8 @@
   background-image: url("/fruit_photo_main.png");
   background-size: cover;
   background-position: center;
-  height: 1500px;
-  /* overflow: hidden; */
-  background-repeat: repeat;
+  height: 1900px;
+  background-repeat: repeat-y;
 }
 
 .nav-bar {
@@ -19,7 +18,8 @@
 }
 
 h1 {
-  font-size: 40px;
+  font-size: 50px;
+  font-family: 'Luckiest Guy', cursive;
 }
 
 
@@ -44,28 +44,39 @@ form.auth-form {
   border-radius: 4px;
 }
 
+.small-button {
+  background-color: green;
+  /* border: 0; */
+  color: white;
+  font-size: 15px;
+  padding: 0px 0px;
+  border-radius: 4px;
+}
+
 
 /* RECIPE CARD CSS */
 
 img {
   border: 1px solid #ddd;
   border-radius: 50%;
-  padding: 5px;
+  /* padding: 5px; */
   width: 150px;
 }
 
 .recipe-card {
   display: inline-grid;
   border: 1px solid #ddd;
-  border-radius: 10px;
+  border-radius: 5px;
   background-color: peachpuff;
   box-shadow: 10px 10px 10px 0 rgba(0, 0, 0, 0.2); /* this adds the "card" effect */
   padding: 20px;
+  margin: 5px;
   width: 150px;
+  /* height: 170px; */
 }
 
 .column {
-  float: left;
+  /* float: left; not working well */
   width: 20%;
   padding: 0,10px;
 }
@@ -76,19 +87,22 @@ img {
 
 .favorites {
   width: fill;
-  border: 10px solid peachpuff;
-  padding: 100px;
+  border-style: solid peachpuff;
+  border-width: thin;
+  padding: 20px;
+  margin: 10px;
   background-color:peachpuff;
 }
 
-
-/* @media screen and (max-width: 600px) {
-  .column {
-    width: 100%;
-    display: block;
-    margin-bottom: 20px;
-  }
-} */
-
-
+form.new-food-form {
+  display: flex;
+  flex-direction: column;
+  width: 27vw;
+  left: 37vw;
+  position: relative;
+  top: 30px;
+  background-color: lightgreen;
+  height: 200px;
+  padding: 70px;
+}
 

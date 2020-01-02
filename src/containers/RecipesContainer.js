@@ -5,8 +5,7 @@ class RecipesContainer extends React.Component {
 
     renderRecipeCard = () => {
      return this.props.recipes.map((recipe)=>{
-            return <div key={recipe.id}>
-                    <RecipeCard
+            return <RecipeCard
                         id={recipe.id}
                         name={recipe.name}
                         type={recipe.type}
@@ -14,7 +13,6 @@ class RecipesContainer extends React.Component {
                         img={recipe.img}
                         addRecipe={this.props.addRecipe}
                     />
-                </div>
         })
     }
 

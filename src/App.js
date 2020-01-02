@@ -5,6 +5,7 @@ import Home from './containers/Home';
 import LoginForm from './components/LoginForm'
 import SignupForm from './components/SignupForm'
 import Navbar from './containers/Navbar'
+import NewFoodForm from './components/NewFoodForm'
 import FavRecipesContainer from './containers/FavRecipesContainer'
 import { Switch, Route, Link } from 'react-router-dom'
 
@@ -42,6 +43,12 @@ class App extends React.Component {
     />
   }
 
+  renderFoodForm = (routerProps) => {
+    return <NewFoodForm
+      {...routerProps}
+    />
+  }
+
 
   render() {
     // console.log(this.state.recipes)
@@ -53,6 +60,7 @@ class App extends React.Component {
             <Switch>
               <Route path="/login" render={this.renderLoginForm} />
               <Route path="/signup" render={this.renderSignupForm} />
+              <Route path="/newfoodform" render={this.renderFoodForm} />
               <Route exact path="/" render={this.renderWelcomePage} /> 
               <Route path="/home" render={()=> <Home />}/>
             </Switch>
