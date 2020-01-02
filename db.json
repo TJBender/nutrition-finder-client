@@ -1,0 +1,74 @@
+{
+    "recipes": [
+        {
+            "id": 1,
+            "name": "Ribeye",
+            "type": "Beef",
+            "price": 84.10,
+            "img": "https://applestonemeat.com/wp-content/uploads/2017/02/Beef-Ribeye-Bone-In-6463-600x600.jpg"
+        },
+        {
+            "id": 2,
+            "name": "Sushi",
+            "type": "Entré",
+            "price": 68.85,
+            "img": "https://clipart4biz.com/images/sushi-drawing-cartoon-3.jpg"
+        },
+        {
+            "id": 3,
+            "name": "Reeses Cups",
+            "type": "Candy",
+            "price": 3.41,
+            "img": "https://www.hersheys.com/is/image/content/dam/reeses/en_us/images/home/Reeses_PBcups_familyshot_product_570x320.jpg?hei=320&wid=570&fmt=jpg"
+        },
+        {
+            "id": 4,
+            "name": "Pasta",
+            "type": "Entré",
+            "price": 24.04,
+            "img": "https://www.thechunkychef.com/wp-content/uploads/2017/08/One-Pot-Chicken-Parmesan-Pasta-feat.jpg"
+        },
+        {
+            "id": 5,
+            "name": "Banana Split",
+            "type": "Dessert",
+            "price": 15.05,
+            "img": "https://cdn.kiwilimon.com/recetaimagen/26478/26077.jpg"
+        },
+        {
+            "id": 6,
+            "name": "New York Strip",
+            "type": "Beef",
+            "price": 29.95,
+            "img": "https://cdn3.volusion.com/hfnhm.snnab/v/vspfiles/photos/600122001017-2.jpg?v-cache=1423577176"
+        },
+        {
+            "id": 7,
+            "name": "Bottle Caps",
+            "type": "Candy",
+            "price": 1.45,
+            "img": "https://cdn.candynation.com/media/catalog/product/cache/cc72865156500766af3a4ff9131f02d7/b/o/bottle_caps_bulk.jpg"
+        },
+        {
+            "id": 8,
+            "name": "Chocolate Cake",
+            "type": "Dessert",
+            "price": 7.94,
+            "img": "https://tastesbetterfromscratch.com/wp-content/uploads/2010/06/Hersheys-Perfectly-Chocolate-Chocolate-Cake-13.jpg"
+        },
+        {
+            "id": 9,
+            "name": "Apple Pie",
+            "type": "Dessert",
+            "price": 8.56,
+            "img": "https://preppykitchen.com/wp-content/uploads/2015/12/Apple-Pie-Recipe-500x375.jpg"
+        },
+        {
+            "id": 10,
+            "name": "Rice and Beans",
+            "type": "Entré",
+            "price": 6.07,
+            "img": "https://www.myforkinglife.com/wp-content/uploads/2019/02/Jamaican-Instant-Pot-Rice-and-Beans-4.jpg"
+        }
+    ]
+}
